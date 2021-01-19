@@ -13,12 +13,7 @@ body {
     background-attachment: fixed;
 }
 
-#NEW h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body h1 {
     font-family: 'Shabnam FD', sans-serif;
 }
 
@@ -105,15 +100,14 @@ canvas {
     box-shadow: 0px 0px 18px -2px rgba(0, 0, 0, 0.52);
 } */
 
-#NEW h1,
-#NEW2 h1 {
+#NEW h1 {
     text-align: center;
 }
 
 #NEW {
     background-color: white;
     border-radius: 30px 30px 30px 30px;
-    padding-top: 20px;
+    padding: 50px;
     margin-top: 50px;
     -webkit-box-shadow: 0px 0px 71px -28px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 0px 0px 71px -28px rgba(0, 0, 0, 0.22);
@@ -144,6 +138,17 @@ tbody td {
 
 .uk-card-body p {
     margin: 0px 20px 0px 20px;
+}
+
+p.ansewer {
+    font-weight: bold;
+}
+
+p.textcenter {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
 }
 
 
