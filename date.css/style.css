@@ -100,11 +100,11 @@ canvas {
     box-shadow: 0px 0px 18px -2px rgba(0, 0, 0, 0.52);
 } */
 
-#NEW h1 {
+.col-xl-12 h1 {
     text-align: center;
 }
 
-#NEW {
+.col-xl-12 {
     background-color: white;
     border-radius: 30px 30px 30px 30px;
     padding: 50px;
@@ -116,7 +116,7 @@ canvas {
     text-justify: inter-word;
 }
 
-#NEW img {
+.col-xl-12 img {
     display: block;
     margin: auto;
     max-width: 50%;
@@ -124,6 +124,12 @@ canvas {
 
 tbody td {
     max-width: 100px;
+}
+
+tbody tr th {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .Center hr {
@@ -140,7 +146,8 @@ tbody td {
     margin: 0px 20px 0px 20px;
 }
 
-p.ansewer {
+p.ansewer,
+ul li {
     font-weight: bold;
 }
 
