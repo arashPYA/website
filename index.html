@@ -4,29 +4,26 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.rtlcss.com/bootstrap/v4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-40ix5a3dj6/qaC7tfz0Yr+p9fqWLzzAXiwxVLt9dw7UjQzGYw6rWRhFAnRapuQyK" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://v1.fontapi.ir/css/ShabnamFD" rel="stylesheet">
-    <link rel="stylesheet" href="date.css/style.css" />
-    <link rel="stylesheet" href="date.css/uikit-rtl.min.css" />
+    <link rel="stylesheet" href="date.css/style.css">
+    <link rel="stylesheet" href="date.css/uikit-rtl.min.css">
     <title>Home Page</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <!-- <a class="navbar-brand" href="#">BigTech</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-            </form>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
+            </div>
         </div>
     </nav>
     <header><canvas></canvas>
@@ -245,6 +242,124 @@
                         </tbody>
                     </table>
                 </div>
+            </div>
+            <div class="col-xl-12">
+                <h1>
+                    ثبت سفارش
+                </h1>
+                <!-- <img src="./image/websiteORinstagram.jpg" alt=""> -->
+                <form>
+                    <fieldset class="uk-fieldset">
+                        <legend class="uk-legend">برای ثبت سفارش فرم زیر را پر کنید</legend>
+                        <div class="uk-margin">
+                            <p>نام و نام خانوادگی</p><input class="uk-width-1-2@s" type="text" placeholder="وارد کنید">
+                            <p>نام شرکت</p><input class="uk-width-1-2@s" type="text" placeholder="وارد کنید">
+                            <p>نام دامنه</p><input class="uk-width-1-2@s" type="text" placeholder="www.example.ir / www.example.com">
+                            <p>آدرس ایمیل</p><input class="uk-width-1-2@s" type="text" placeholder="example@gmail.com">
+                        </div>
+                        <div class="uk-margin" uk-margin>
+                            <div uk-form-custom="target: true">
+                                <input type="file">
+                                <input class="uk-input uk-form-width-medium" type="text" placeholder="ارسال لوگو (کلیک کنید)" disabled>
+                            </div>
+                            <button class="uk-button uk-button-default">ارسال</button>
+                        </div>
+                        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                            <ul>
+                                <li><label><input class="uk-checkbox" type="checkbox"> قابلیت جستجو</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> قابلیت جستجوی پیشرفته</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> فیلترینگ ساده</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> فیلترینگ پیشرفته</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> ریسپانسیوسازی کامل</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> قرار دادن API</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> ثبت نام کاربران در سایت</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> قابلیت social login با گوگل</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> ثبت درگاه بانکی در سایت</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> امکان اضافه کردن مطالب توسط کاربران در سایت</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> قرار دادن بخش نظرات در سایت</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> بخش نظرات پیشرفته در سایت شامل به اشتراک گذاری مطالب</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> ایمن سازی پیشرفته</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> اضافه نمودن زبان انگلیسی در سایت</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> قابلیت کش کردن مطالب در سایت</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> امکان ایجاد RSS feed به ازای هر صفحه</label></li>
+                                <li><label><input class="uk-checkbox" type="checkbox"> کار بر روی سئو</label></li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                </form>
+                <br>
+                <br>
+                <br>
+                <br>
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">نام و نام خانوادگی</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="" required>
+                            <div class="valid-feedback">
+                                مورد تایید است
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom02">نام شرکت</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="" required>
+                            <div class="valid-feedback">
+                                مورد تایید است
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom02">نام دامنه</label>
+                            <input type="text" class="form-control" id="validationCustom03" placeholder="" required>
+                            <div class="valid-feedback">
+                                مورد تایید است
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label"> ایمیل</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel" placeholder="example@gmail.com" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-margin" uk-margin>
+                        <div uk-form-custom="target: true">
+                            <input type="file">
+                            <input class="uk-input uk-form-width-medium" type="text" placeholder="ارسال لوگو (کلیک کنید)" disabled>
+                        </div>
+                        <button class="uk-button uk-button-default">ارسال</button>
+                    </div>
+                    <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                        <ul>
+                            <li><label><input class="uk-checkbox" type="checkbox"> قابلیت جستجو</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> قابلیت جستجوی پیشرفته</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> فیلترینگ ساده</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> فیلترینگ پیشرفته</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> ریسپانسیوسازی کامل</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> قرار دادن API</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> ثبت نام کاربران در سایت</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> قابلیت social login با گوگل</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> ثبت درگاه بانکی در سایت</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> امکان اضافه کردن مطالب توسط کاربران در سایت</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> قرار دادن بخش نظرات در سایت</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> بخش نظرات پیشرفته در سایت شامل به اشتراک گذاری مطالب</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> ایمن سازی پیشرفته</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> اضافه نمودن زبان انگلیسی در سایت</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> قابلیت کش کردن مطالب در سایت</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> امکان ایجاد RSS feed به ازای هر صفحه</label></li>
+                            <li><label><input class="uk-checkbox" type="checkbox"> کار بر روی سئو</label></li>
+                        </ul>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>&nbsp;&nbsp;&nbsp;
+                            <label class="form-check-label" for="invalidCheck"><p>قوانین را قبول دارم</p></label>
+                            <div class="invalid-feedback">
+                                تمام قسمت ها باید به درستی پر شوند
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">ارسال فرم</button>
+                </form>
             </div>
         </div>
     </div>
