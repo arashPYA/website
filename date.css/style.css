@@ -172,7 +172,7 @@ p.textcenter {
 
 .custom-file {
     text-align: center;
-    width: 50%;
+    max-width: 50%;
 }
 
 .TH {
