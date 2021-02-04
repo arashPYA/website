@@ -53,13 +53,16 @@
                     او را از دست ندهید! جدول زیر مقایسه بین داشتن یک وبسایت حرفه ای و کسب و کار صرف اینستاگرامی را نشان میدهد:
                 </p>
                 <table class="uk-table uk-table-divider">
-                    <thead>
-                        <tr>
-                            <th>دلیل</th>
-                            <th>راهکار</th>
-                        </tr>
-                    </thead>
                     <tbody>
+                        <tr class="TH">
+                            <td>دلیل</td>
+                            <td>راهکار</td>
+                        </tr>
+                        <tr>
+                            <td>1- وقتی که کسب کار شما رشد می کنه و محصولات بیشتری برای فروش ارائه می کنید ، افزایش پست های اینستاگرام باعث میشه که محصولات قبلی دیده نشن و شما مجبور می شید دوباره محصولات قبلی رو با استفاده از استوری یا پست کردن معرفی کنید
+                                که خیلی وقتها کار بیهوده و زمان بری هستش. </td>
+                            <td>با طراحی سایت برای کسب و کار خودتون، شما با انتخاب تگ و دسته بندی های مخصوص به اون، همیشه تمام محصولات رو می تونید به نمایش بذارید و از همه مهم تر قابلیت جستجو داره که اینستاگرام از اون بی بهره است.</td>
+                        </tr>
                         <tr>
                             <td>1- وقتی که کسب کار شما رشد می کنه و محصولات بیشتری برای فروش ارائه می کنید ، افزایش پست های اینستاگرام باعث میشه که محصولات قبلی دیده نشن و شما مجبور می شید دوباره محصولات قبلی رو با استفاده از استوری یا پست کردن معرفی کنید
                                 که خیلی وقتها کار بیهوده و زمان بری هستش. </td>
@@ -95,7 +98,7 @@
                 <p class="textcenter">ما در BIGtek نه تنها وبسایت مورد دلخواه مشتری را طراحی می کنیم، بلکه در انتخاب بهترین خدمات مورد نیاز به مشتری نیز مشاوره می دهیم.</p>
                 <p class="textcenter">ارزان ترین خدمات را ارائه نمی دهیم اما قطعا ارزشمندترین و به صرفه ترین سرویس ها را به شما ارائه خواهیم کرد.</p>
             </div>
-            <div class="col-xl-12">
+            <div class="col-xl-12" id="Ghavanin">
                 <h1>قوانین</h1>
                 <p class="center">لطفا قبل از هر گونه اقدام به سفارش، لیست قوانین و مقررات تنظیم شده را به دقت مطالعه فرمایید. این قوانین کاملا بدیهی و موجه بوده و طریق مراجع قانونی و قوانین حاکم بر جمهوری اسلامی ایران قابل پیگیری می باشد. این قوانین به گونه ای تنظیم شده
                     که ضامن منافع طرفین قرارداد باشد. </p>
@@ -183,16 +186,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="uk-margin" uk-margin>
-                        <div uk-form-custom="target: true" required>
-                            <input type="file" required>
-                            <input class="uk-input uk-form-width-medium" type="text" placeholder="ارسال لوگو (کلیک کنید)" required>
-                        </div>
-                        <button class="uk-button uk-button-default">ارسال</button>
-                    </div> -->
                     <div class="custom-file">
                         <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-                        <label class="custom-file-label" for="validatedCustomFile">تصویر انتخابی باید باکیفیت بالا و با فرمت png باشد.</label>
+                        <label class="custom-file-label" for="validatedCustomFile">تصویر انتخابی باید با کیفیت بالا باشد.</label>
                         <div class="invalid-feedback">یک فایل انتخاب کنید</div>
                     </div>
                     <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
@@ -303,7 +299,7 @@
                     <div class="form-group">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="send" id="invalidCheck" required>&nbsp;&nbsp;&nbsp;
-                            <label class="form-check-label" for="invalidCheck"><p>قوانین را قبول دارم</p></label>
+                            <label class="form-check-label" for="invalidCheck"><p><a href="#Ghavanin">قوانین</a> را مطالعه کردم و با آنها موافق هستم</p></label>
                             <div class="invalid-feedback">
                                 تمام قسمت ها باید به درستی پر شوند
                             </div>
@@ -403,9 +399,7 @@
             </div>
         </div>
     </footer>
-    <script src="date.js/script.js">
-        uk
-    </script>
+    <script src="date.js/script.js"></script>
     <script src="date.js/uikit.min.js"></script>
     <script src="date.js/uikit-icons.min.js"></script>
 </body>

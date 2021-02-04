@@ -175,6 +175,10 @@ p.textcenter {
     width: 50%;
 }
 
+.TH {
+    text-align: center;
+}
+
 
 /* /////////footer///// */
 
