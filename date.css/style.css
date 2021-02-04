@@ -170,6 +170,11 @@ p.textcenter {
     text-align: center;
 }
 
+.custom-file {
+    text-align: center;
+    width: 50%;
+}
+
 
 /* /////////footer///// */
 
@@ -365,4 +370,9 @@ ul {
 .footer-menu li a {
     font-size: 14px;
     color: #878787;
+}
+
+#Receipt {
+    max-width: 200px;
+    max-height: 100px;
 }
