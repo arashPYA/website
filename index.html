@@ -24,6 +24,7 @@
                 <a class="nav-item nav-link active" href="#">صفحه اصلی <span class="sr-only">(current)</span></a>
             </div>
         </div>
+        <button type="button" class="btn btn-light"><a href=""><span class="uk-margin-big-right" uk-icon="cart"></span></a></button>
     </nav>
     <header><canvas></canvas>
         <section>
@@ -34,7 +35,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <h1>چرا به وبسایت حرفه ای نیاز داریم؟</h1>
-                <img src="./image/websiteORinstagram.jpg" alt="">
+                <!-- <img src="./image/websiteORinstagram.jpg" alt=""> -->
                 <p>شاید این روزها با دیدن اکثر اطرافیانتان در شبکه های اجتماعی مثل اینستاگرام و تلگرام این پرسش برای شما پیش بیاید که با وجود چنین پلتفرم های رایگان و قدرتمندی برای معرفی محصولات و خدماتتان به دیگران و یا حتی فروش آنها از طریق همین شبکه های
                     اجتماعی، دیگر چه نیازی به یک وبسایت دارید؟</p>
                 <p class="ansewer">پاسخ ساده است: برای اعتبار بخشی به کسب و کارتان و حرفه ای جلوه دادن آن. </p>
@@ -50,9 +51,9 @@
                     <li><span class="uk-margin-small-right" uk-icon="check"></span>&nbsp;امکان تبادل داده با دیگر وبسایت ها را برای سایت خود فراهم کنید</li>
                 </ul>
                 <p>در گذشته شما زمان زیادی داشتید تا خود و محصولتان را به مشتری نشان میدادید اما مشتری امروز بی صبر و حوصله است و شما فقط 5 ثانیه فرصت دارید تا به او نشان دهید که در کار خود متعهد و توانا هستید و وبسایت شما اولین چیزی است که مشتری میبیند.
-                    او را از دست ندهید! جدول زیر مقایسه بین داشتن یک وبسایت حرفه ای و کسب و کار صرف اینستاگرامی را نشان میدهد:
+                    او را از دست ندهید!
                 </p>
-                <table class="uk-table uk-table-divider">
+                <!-- <table class="uk-table uk-table-divider">
                     <tbody>
                         <tr class="TH">
                             <td>دلیل</td>
@@ -79,7 +80,7 @@
                             <td>با طراحی سایت برای کسب و کار خودتون به مشتری ها اجازه می¬دید که محصول رو بررسی و با سایر محصولات مشابه مقایسه کنن و سفارش خودشون رو ثبت کنن و تنها کاری که شما باید انجام بدید ارسال محصول هستش.</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> -->
                 <p>ساخت یک وبسایت حرفه ای فقط از دست طراحان حرفه ای ساخته است. طراحان حرفه ای قوانین کاملا مشخص و واضحی را برای هر دو طرف قرارداد تنظیم میکند که منافع طرفین را در برگیرد به طوریکه باعث تضییع حقوق کسی نشود. در مورد قیمت گذاری یک وبسایت حرفه
                     ای اینگونه باید باشد که قیمت کلی مشخص نیست بلکه به تفکیک سرویس انجام میگیرد یعنی قرار دادن هر سرویسی در وبسایت مشتری هزینه واضح و مشخصی دارد.</p>
             </div>
@@ -209,25 +210,54 @@
                             </tr>
                         </tbody>
                     </table>
+                    <button type="button" class="btn btn-primary btn-lg"><a href=""></a>ثبت سفارش&nbsp;<span class="uk-margin-big-right" uk-icon="cart"></span></button>
                 </div>
             </div>
-            <div class="col-xl-12">
+            <!-- <div class="col-xl-12">
                 <h1>پیگیری سفارش</h1>
                 <div class="uk-overflow-auto">
                     <p class="textcenter"> برای پیگیری سفارش، ایمیل خود را وارد کنید</p>
-                    <div class="col-md-10">
-                        <input type="email" placeholder="example@gmail.com"><br><br>
-                        <a class="uk-button uk-button-default" href="#modal-center" uk-toggle>پیگیری</a>
-                        <div id="modal-center" class="uk-flex-top" uk-modal>
-                            <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-                                <button class="uk-modal-close-default" type="button" uk-close></button>
-                                <p>
-                                </p>
+                </div>
+                <form>
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary" data-target="#modal-center">پیگیری</button>
+                            <div id="modal-center" class="uk-flex-top" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">پیگیری</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </form>
+            </div> -->
         </div>
     </div>
     <br>
