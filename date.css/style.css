@@ -17,6 +17,26 @@ body h1 {
     font-family: 'Shabnam FD', sans-serif;
 }
 
+body h2 {
+    font-family: 'Shabnam FD', sans-serif;
+}
+
+body h3 {
+    font-family: 'Shabnam FD', sans-serif;
+}
+
+body h4 {
+    font-family: 'Shabnam FD', sans-serif;
+}
+
+body h5 {
+    font-family: 'Shabnam FD', sans-serif;
+}
+
+body h6 {
+    font-family: 'Shabnam FD', sans-serif;
+}
+
 p.title {
     font-size: 20px;
 }
@@ -384,3 +404,186 @@ footer .col-xl-12 {
     max-width: 200px;
     max-height: 100px;
 }
+
+#pay {
+    visibility: hidden;
+    position: absolute;
+}
+
+.pay-btn:hover #pay {
+    visibility: visible;
+    position: relative;
+}
+
+.pay-btn {
+    background: #00c51bc7;
+    color: #ffffff;
+    padding: 0.8rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: absolute;
+    min-width: 20px;
+}
+
+.pay-btn:hover {
+    background: #00c51bc7;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #00000061;
+    padding: 0.9rem;
+    color: #ffffff;
+}
+
+
+/* ///////////////////////////////////// */
+
+
+/* ///////////////////////////////////// */
+
+#delete {
+    visibility: hidden;
+    position: absolute;
+}
+
+.delete-btn:hover #delete {
+    visibility: visible;
+    position: relative;
+}
+
+.delete-btn {
+    background: #ec0000;
+    color: #ffffff;
+    padding: 0.8rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: absolute;
+    min-width: 20px;
+}
+
+.delete-btn:hover {
+    background: #ec0000;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #00000061;
+    padding: 0.9rem;
+    color: #ffffff;
+}
+
+
+/* ///////////////////////////////////// */
+
+
+/* ///////////////////////////////////// */
+
+#order {
+    visibility: hidden;
+    position: absolute;
+}
+
+.order-btn:hover #order {
+    visibility: visible;
+    position: relative;
+}
+
+.order-btn {
+    background: #00c51bc7;
+    color: #ffffff;
+    padding: 0.8rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    /* width: auto; */
+    position: absolute;
+    min-width: 20px;
+}
+
+.order-btn:hover {
+    background: #00c51bc7;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #00000061;
+    padding: 0.9rem;
+    color: #ffffff;
+}
+
+
+/* ///////////////////////////////////// */
+
+
+/* ///////////////////////////////////// */
+
+#okEdite {
+    visibility: hidden;
+    position: absolute;
+}
+
+.okEdite-btn:hover #okEdite {
+    visibility: visible;
+    position: relative;
+}
+
+.okEdite-btn {
+    background: #00c51bc7;
+    color: #ffffff;
+    padding: 0.8rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    /* width: auto; */
+    position: absolute;
+    min-width: 20px;
+}
+
+.okEdite-btn:hover {
+    background: #1102ecea;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #00000061;
+    padding: 0.9rem;
+    color: #ffffff;
+}
+
+
+/* ///////////////////////////////////// */
+
+
+/* ///////////////////////////////////// */
+
+#edit {
+    visibility: hidden;
+    position: absolute;
+}
+
+.edit-btn:hover #edit {
+    visibility: visible;
+    position: relative;
+}
+
+.edit-btn {
+    background: #1102ecea;
+    color: #ffffff;
+    padding: 0.8rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: absolute;
+    min-width: 20px;
+    absolute
+}
+
+.edit-btn:hover {
+    background: #1102ecea;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #00000061;
+    padding: 0.9rem;
+    color: #ffffff;
+}
+
+
+/* ///////////////////////////////////// */
