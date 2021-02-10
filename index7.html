@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://v1.fontapi.ir/css/ShabnamFD" rel="stylesheet">
+    <link rel="stylesheet" href="date.css/style.css">
+    <link rel="stylesheet" href="date.css/uikit-rtl.min.css">
+    <title>output</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <table class="uk-table uk-table-small uk-table-divider">
+                    <thead>
+                        <tr>
+                            <th>اطلاعات کامل</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>نام</td>
+                            <td>
+                                <!--
+                                Customer name-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>نام شرکت</td>
+                            <td>
+                                <!--
+                                company name-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ایمیل</td>
+                            <td>
+                                <!--
+                                customer email-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>نام دامنه</td>
+                            <td>
+                                <!--
+                                site addres-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>لوگو انتخاب شده</td>
+                            <td>
+                                <img src="" id="Receipt" alt="">
+                                <!-- customer logo link-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="uk-placeholder uk-text-center">لیست خدمات انتخاب شده</div>
+                <table class="uk-table uk-table-small uk-table-divider uk-text-center">
+                    <tbody>
+                        <!--Start loop-->
+                        <tr>
+                            <td>
+                                <!--Name of selected service -->
+                            </td>
+                            <td>
+                                <!--price of selected service -->
+                            </td>
+                        </tr>
+                        <!--End loop-->
+                    </tbody>
+                </table>
+                <hr class="uk-divider-icon">
+                <table class="uk-table uk-table-small uk-table-divider">
+                    <tbody>
+                        <tr>
+                            <td>قیمت کل محصول</td>
+                            <td>
+                                <!--
+                                Total price-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="col-sm-10">
+                    <button class="pay-btn" type="submit"><svg id="pay" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                    </svg>&nbsp;&nbsp;پرداخت</button>
+                </div><br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="image/logopng.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <em>بیگ تک</em>
+                            <p>زیر مجموعه ی شرکت رایانه پندار آپادانا می باشد که در زمینه ی طراحی سایت و امور برنامه نویسی تحت وب فعالیت دارد</p>
+                        </div>
+                        <div class="footer-cta pt-5 pb-5">
+                            <div class="row">
+                                <div class="col-xl-4 col-md-12">
+                                    <div class="single-cta">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <div class="cta-text">
+                                            <a href="" class="uk-icon-button" uk-icon="location"></a>&nbsp;
+                                            <span>خوزستان، اهواز</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-12">
+                                    <div class="single-cta">
+                                        <i class="fas fa-phone"></i>
+                                        <div class="cta-text">
+                                            <a href="" class="uk-icon-button" uk-icon="receiver"></a>&nbsp;
+                                            <span>09376736885</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-12">
+                                    <div class="single-cta">
+                                        <i class="far fa-envelope-open"></i>
+                                        <div class="cta-text">
+                                            <a href="" class="uk-icon-button" uk-icon="mail"></a>&nbsp;
+                                            <span>bigtech.webcompany@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-social-icon">
+                            <a href="https://www.linkedin.com/in/big-tech-8115a01b9/" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin" id="linkedin"></a>
+                            <!-- Set link-->
+                            <a href="https://www.instagram.com/bigtech.co/" class="uk-icon-button  uk-margin-small-right" uk-icon="instagram" id="instagram"></a>
+                            <!-- Set link-->
+                            <a href="https://wa.me/989376736885" class="uk-icon-button" uk-icon="whatsapp" id="whatsapp"></a>
+                            <!-- Set link-->
+                        </div>
+                        <hr>
+                        <div>
+                            <em><p> تمامی حقوق این وب سایت نزد شرکت <em> رایانه پندار آپادانا </em> محفوظ است.</p>
+                            </em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="date.js/uikit.min.js "></script>
+    <script src="date.js/uikit-icons.min.js "></script>
+</body>
+
+</html>
