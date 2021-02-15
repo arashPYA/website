@@ -37,6 +37,14 @@ body h6 {
     font-family: 'Shabnam FD', sans-serif;
 }
 
+.btn-dark a {
+    color: white;
+}
+
+.btn-dark a:hover {
+    color: white;
+}
+
 p.title {
     font-size: 20px;
 }
