@@ -15,3 +15,12 @@
         });
     }, false);
 })();
+/////////////limited upload file////////////////
+var uploadField = document.getElementById("validationCustom05");
+
+uploadField.onchange = function() {
+    if (this.files[0].size > 100000) {
+        alert("حجم فایل انتخاب شده بیشتر از 100 کیلوبایت است");
+        this.value = "";
+    };
+};
