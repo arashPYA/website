@@ -283,6 +283,19 @@
         </div>
     </footer>
     <script src="date.js/script.js"></script>
+    <script>
+        $(function() {
+            $("#button").on("click", function() {
+                $("#mylist").load("index4.html", function(response, status, xhr) {
+                    if (status == "error") {
+                        var msg = "Sorry but there was an error: ";
+                        alert(msg + xhr.status + " " + xhr.statusText);
+                    } else
+                        alert("Success");
+                });
+            });
+        });
+    </script>
     <script src="date.js/uikit.min.js"></script>
     <script src="date.js/uikit-icons.min.js"></script>
 </body>
