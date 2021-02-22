@@ -1,4 +1,4 @@
-(function() {
+function() {
 
     var canvas, ctx, circ, nodes, mouse, SENSITIVITY, SIBLINGS_LIMIT, DENSITY, NODES_QTY, ANCHOR_LENGTH, MOUSE_RADIUS;
 
@@ -198,3 +198,7 @@ window.addEventListener('load', function() {
         }, false);
     });
 }, false);
+
+function PrintDocument() {
+    window.print();
+}
