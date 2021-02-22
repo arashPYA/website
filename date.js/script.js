@@ -202,7 +202,3 @@
         });
     }, false);
 })();
-
-function PrintDocument() {
-    window.print();
-}
